@@ -1,0 +1,36 @@
+.wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 0.7rem;
+}
+
+.bg-grid-show [class^="col"] {
+    background: #eee;
+    border-radius: 8px;
+    padding: 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    text-align: center;
+}
+
+.row.no-gutters.bg-grid-show [class^="col"]:nth-child(2) {
+    background: #ccc;
+}
+
+.row.no-gutters.bg-grid-show [class^="col"] {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
